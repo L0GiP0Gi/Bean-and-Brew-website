@@ -1,0 +1,38 @@
+
+           label {
+            color: #ffffff;
+            }
+   body {
+            height: 100vh;
+            background-color: red; /* For browsers that do not support gradients */
+            background-image: linear-gradient(sandybrown, saddlebrown);
+        }
+
+
+body {
+  margin: auto;
+  font-family: Courier_New, Monospace;
+  color: rgba(245, 227, 23, 0.98);
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: saddlebrown;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.topnav a:hover {
+  background-color: #7c390a;
+  color: white;
+}
+.topnav a.active {
+  background-color: #65320f;
+  color: white;
+}
